@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">BitsClient</string>
+  <string name="action_clear">Clear</string>
+</resources>
