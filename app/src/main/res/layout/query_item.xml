@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?attr/selectableItemBackground"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/query_type"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="4dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginTop="8dp"
+      android:text="@string/app_name"
+      android:textSize="14sp"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="15dp"
+      android:layout_marginStart="15dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/query_link"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/query_msgid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:text="@string/app_name"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/query_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="12sp"/>
+  </LinearLayout>
+</LinearLayout>

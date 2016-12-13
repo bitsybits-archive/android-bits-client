@@ -6,7 +6,7 @@ android {
 
   defaultConfig {
     applicationId "org.bitsybits.bitsclient"
-    minSdkVersion 15
+    minSdkVersion 17
     targetSdkVersion 23
     versionCode 1
     versionName "1.0"
@@ -25,4 +25,5 @@ dependencies {
   compile 'com.android.support:appcompat-v7:23.1.1'
   compile 'com.android.support:design:23.1.1'
   compile 'com.github.bitsybits:jCoAP:f504706620'
+  compile 'com.thoughtbot:expandablerecyclerview:1.1'
 }
